@@ -32,7 +32,7 @@ Pokedex/
 ### Buenas prácticas implementadas:
 - ✅ **Separación de responsabilidades**: Las vistas están separadas de la lógica de estado
 - ✅ **React Router**: Implementación de navegación con rutas definidas
-- ✅ **Context API**: Preparado para manejo de estado global (aunque no se está usando activamente aún)
+- ✅ **Context API con Flux**: Arquitectura preparada para manejo de estado global escalable (actualmente el estado se maneja localmente en componentes para mantener la simplicidad del proyecto)
 - ✅ **Hooks modernos**: Uso de `useState` y `useEffect` para manejo de estado y efectos
 - ✅ **Bootstrap**: Framework CSS para estilos responsivos
 - ✅ **Componentización**: Estructura modular que facilita el mantenimiento
